@@ -14,7 +14,7 @@ int main()
         cin>>arr[i];
 
     }
-    // out array would be in  [1,2,3,4,5] and target would be 9
+    // our array would be in  [1,2,3,4,5] and target would be 9
     int target;
     cout<<"Please enter thre target element fro the aray : ";
     cin>>target;

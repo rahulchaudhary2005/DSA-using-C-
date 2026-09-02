@@ -10,7 +10,7 @@ void max_sum(int arr[],int n)
         for(int j=i ;j<n; j++)
         {
             curr_sum+=arr[j];
-            if(curr_sum>max_sum)
+            if(curr_sum>max_sum) // here we are applyig a condition if your curr sum is greater that maax sum then max sum becomes curr sum and this will continues till te entire calculation of the sub arrays
             {
                 max_sum=curr_sum;
             }

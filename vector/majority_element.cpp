@@ -18,7 +18,7 @@ int majority_element(vector<int> nums, int sz)
 
         if (freq > sz / 2)
         {
-            cout<<"the frequency is "<<freq;
+            cout<<"the frequency is "<<freq<<endl;
             return (val);
         }
     }
